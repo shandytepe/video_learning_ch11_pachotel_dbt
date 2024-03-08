@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: pachotel_dbt
+    database: pachotel_dbt
+    schema: public
+    tables:
+      - name: customer
+      - name: payment
+      - name: reservation
+
